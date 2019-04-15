@@ -1,0 +1,23 @@
+.content{
+  width: 100%;
+  height: calc(100% - 60px);
+  background: #e1e1e1;
+  padding-bottom: 30px;
+  .main{
+    width: 90%;
+    margin: auto;
+    height: 100%;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    section{
+      flex: 1;
+      margin-right: 30px;
+      background: #fff;
+    }
+    aside{
+      flex: 0 0 250px;
+    }
+  }
+}
